@@ -1,0 +1,6 @@
+coiffure:
+  image: langston8182/coiffure:0.0.1-SNAPSHOT
+  ports:
+  - 80:80
+  volumes:
+  - .:/usr/local/apache2/htdocs/
